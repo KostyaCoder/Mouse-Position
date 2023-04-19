@@ -1,0 +1,47 @@
+:root {
+  --color-mouse: black;
+  --size-ear: 40vh;
+}
+
+.outer-wrapper {
+  background-color: black;
+  min-width: 90vw;
+  min-height: 97vh;
+}
+
+.inner-wrapper {
+  background-color: white;
+  min-height: 97vh;
+  width: 110vh;
+  margin: auto;
+  position: relative;
+}
+
+.mouse-head {
+  background-color: var(--color-mouse);
+  --size: 70vh;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 20vh;
+}
+
+.mouse-ear {
+  background-color: var(--color-mouse);
+  height: var(--size-ear);
+  width: var(--size-ear);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.mouse-left-ear {
+  left: 0;
+  top: 0;
+}
+
+.mouse-right-ear {
+  right: 0;
+  top: 0;
+}
